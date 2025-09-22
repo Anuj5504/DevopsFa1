@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Compiling C program...'
-                sh 'gcc -o hello hello.c'
+                echo 'Testing pipeline without hello.c...'
+                sh 'echo "Hello from Jenkins!"'
             }
         }
     }
