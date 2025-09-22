@@ -8,7 +8,7 @@ nodes = {
     "Backend": {"label": "Detection Backend (FastAPI)\nDeterministic → Embeddings (Qdrant) → LLM → Decision Engine", "group": "Backend"},
     "Decision": {"label": "Decision\n(Allow / Mask / Block / Quarantine)", "group": "Backend"},
     "Admin": {"label": "Admin UI / Review\n(Human feedback → Vector DB / Allowlists)", "group": "Admin"},
-    "Alert": {"label": "Alerting / Integrations\n(Slack / SIEM / Logs → Postgres / Elastic)", "group": "Monitoring"},
+    "Alert": {"label": "Alerting / Integratdions\n(Slack / SIEM / Logs → Postgres / Elastic)", "group": "Monitoring"},
 }
 
 # Define edges
